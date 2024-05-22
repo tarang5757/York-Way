@@ -1,0 +1,56 @@
+:root {
+    --york-red: #E31837;
+    --black: #000000;
+    --white: #FFFFFF;
+    --york-red-medium: #AF0D1A;
+    --york-light-grey: #E1DFDC;
+    --york-red-dark: #810001;
+    --york-pewter: #D6CFCA;
+    --york-bright-blue: #3AC2EF;
+    --york-grey-medium: #B7AEA9;
+    --york-light-blue: #ACE6F8;
+    --york-grey-dark: #686260;
+}
+
+body {
+    background-color: var(--york-light-grey);
+    color: var(--black);
+}
+
+.navbar {
+    background-color: var(--york-red);
+}
+
+make the logo small
+
+
+.navbar-brand,
+.nav-link {
+    color: var(--white) !important;
+}
+
+.hero-section {
+    background-color: var(--york-red-medium);
+    color: var(--white);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features-section {
+    padding: 50px 0;
+}
+
+.feature-box {
+    background-color: var(--white);
+    border: 1px solid var(--york-grey-medium);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--york-red-dark);
+    color: var(--white);
+    padding: 20px 0;
+}
+
