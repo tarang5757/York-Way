@@ -1,0 +1,70 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E1DFDC;
+    /* Light grey from your palette */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+    width: 900px;
+    /* Adjust width as needed */
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form,
+.login-info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form {
+    background-color: #FFFFFF;
+    /* White from your palette */
+    flex: 1;
+}
+
+.login-info {
+    background-color: #E31837;
+    /* York Red */
+    flex: 1;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    border-radius: 0;
+    /* Flat style */
+    border-color: #810001;
+    /* York Red Dark */
+}
+
+.btn-primary {
+    background-color: #E31837;
+    /* York Red */
+    border-color: #810001;
+    /* York Red Dark */
+}
+
+.forgot-password {
+    color: #810001;
+    /* York Red Dark */
+    text-align: center;
+    margin-top: 15px;
+}
